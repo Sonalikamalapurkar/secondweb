@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main-wrapper{
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url("imagegreen/green-energy-stocks-2021.jpg");
+    width: 100%;
+    height: 109vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute; 
+}
+
+.navbar{
+    width: 100%;
+    height: 90px;
+    margin: auto;
+    background-color: lightgreen;
+}
+
+.icon{
+    width: 200px;
+    height: 70px;
+    float: left;
+
+}
+
+.logo{
+    color: darkgreen;
+    font-family: Arial;
+    font-weight: bold;
+    padding-left: 50px;
+    padding-top: 30px;
+
+}
+
+.menu ul{
+    float: right;
+    display: flex;
+    margin-right: 75px;
+    font-family: Arial;
+    font-weight: bold;
+}
+
+.menu ul li{
+    margin-left: 60px;
+    margin-top: 30px;
+    list-style: none;
+}
+
+.menu ul li a{
+    text-decoration: none;
+}
+
+.text{
+    height: 30px;
+    width: 250px;
+    margin: 20px;
+    padding-top: 10px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background-color: green;
+    color: white;
+}
+
+.parag{
+    padding-left: 30px;
+}
+
+.parag h1{
+    font-family: Arial;
+    font-size: 50px;
+    margin: 30px;
+    font-weight: lighter;
+    color: white;
+}
+
+.parag h1 span{
+    background-color: lightgreen;
+    color: darkgreen;
+    padding: 0,10px;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.parag p{
+    color: white;
+    width: 50%;
+    margin: 15px;
+    font-size: 16px;
+    padding-left: 15px;
+}
+
+.parag h3{
+    height: 40px;
+    width: 350px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background-color: green;
+    color: white;
+    padding-top: 15px;
+    margin-left: 40px;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.parag input{
+    position: relative;
+    width: 10%;
+    margin: 30px;
+    height: 30px;
+    padding-left: 30px;
+    display: inline-block;
+    border-radius: 10px;
+}
+
+.button{
+    height: 33px;
+    width: 150px;
+    margin: 10px;
+    background-color: blue;
+    color: white;
+    border-radius: 15px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 10px;
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 90px;
+}
+
